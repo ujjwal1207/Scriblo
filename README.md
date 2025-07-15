@@ -1,4 +1,4 @@
-# MyBlog – React + Vite Blogging Platform
+# Scriblo – React + Vite Blogging Platform
 
 A modern, full-featured blogging application built with React, Vite, Appwrite, and Tailwind CSS.
 
@@ -50,7 +50,7 @@ A modern, full-featured blogging application built with React, Vite, Appwrite, a
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/myblog.git
+   git clone https://github.com/ujjwal1207/Scriblo.git
      cd scriblo
      ```
   
