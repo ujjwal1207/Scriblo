@@ -124,14 +124,13 @@ export class Service {
       return false
     }
   }
- getFilePreview(fileId) {
-  // ❌ preview = blocked on free plan
-  // return this.storage.getFilePreview(conf.appwritebucketid, fileId);
+  getFilePreview (fileId) {
+    // ❌ preview = blocked on free plan
+    // return this.storage.getFilePreview(conf.appwritebucketid, fileId);
 
-  // ✅ view = works fine on free plan
-  return this.storage.getFileView(conf.appwritebucketid, fileId);
-}
-
+    // ✅ view = works fine on free plan
+    return this.storage.getFileView(conf.appwritebucketid, fileId)
+  }
 }
 
 const service = new Service()

@@ -20,7 +20,7 @@ export class Authservice {
       )
       if (useraccount) {
         console.log('account created')
-        return this.loginaccount({ email, password })
+        return this.login({ email, password })
       } else {
         return useraccount
       }
@@ -33,6 +33,7 @@ export class Authservice {
       const session = await this.account.createEmailPasswordSession(email, password)
       if (session) {
         console.log('login successful')
+          return session;
       } else {
         return session
       }
